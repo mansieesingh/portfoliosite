@@ -1,0 +1,129 @@
+:root{
+    --blue-color: rgb(29, 161, 242);
+}
+.title {
+    font-size: 1.5rem;
+  }
+  
+  .experiences {
+    margin-top: 1.5rem;
+  }
+  .experience {
+    margin-bottom: 1.5rem;
+  }
+  
+  .job-dur {
+    border: solid 1px var(--blue-color);
+    color: var(--blue-color);
+    padding: 0.2rem 0.5rem;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    width: fit-content;
+  }
+  
+  .job-title {
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .work-place {
+    margin-bottom: 0.3rem;
+    color: #999;
+    font-weight: 900;
+    /* font-size: 0.8rem; */
+    color: #4d4d4d;
+  }
+  
+  .job-summary {
+    color: #646464;
+    letter-spacing: 0.05rem;
+    text-align: justify;
+    margin-top: 0.8rem;
+  }
+  
+  .skill-box {
+    display: flex;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+  }
+  
+  .stack {
+    padding: 1rem;
+  }
+  
+  .stack > h3 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .stack > p {
+    text-align: right;
+  }
+  
+  .techs {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .techs > img {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1rem;
+  }
+  
+  .tech-icon {
+    height: 100px;
+    width: 100px;
+    margin-bottom: 1rem;
+    display: block;
+  }
+  
+
+  .knowledge {
+    padding-top: 1rem;
+    padding-left: 1rem;
+  }
+  
+  .knowledge > h3 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .knowledge-item {
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+  
+  .knowledge-item > img {
+    margin-right: 0.5rem;
+  }
+  
+  .knowledge-item {
+    display: flex;
+  }
+  
+  @media (min-width: 800px) {
+    .title {
+      border-bottom: solid 1px var(--blue-color);
+      padding-bottom: 1rem;
+    }
+  
+    .skill-box {
+      flex-direction: row;
+    }
+  
+    .stack {
+      width: 80%;
+    }
+  
+    .techs {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  
+    .knowledge {
+      width: 50%;
+    }
+  }
+  
